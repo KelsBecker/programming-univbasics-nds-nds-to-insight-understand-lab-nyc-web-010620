@@ -13,7 +13,6 @@ def print_first_directors_movie_titles
   count = 0 
   while count < movies.length 
     print  "#{movies[count][:title]}\n"
-    
     count += 1
   end
 
